@@ -1,0 +1,25 @@
+$breakpoints: (
+  LG : 1199px,
+  MD : 991px,
+  SM : 767px,
+  XSM : 575px,
+  XS : 479px,
+);
+
+@mixin MQ($bp) {
+  @if $bp == LG {
+    @media (max-width: map-get($breakpoints, LG)) { @content; }
+  }
+  @else if $bp == MD {
+    @media (max-width: map-get($breakpoints, MD)) { @content; }
+  }
+  @else if $bp == SM {
+    @media (max-width: map-get($breakpoints, SM)) { @content; }
+  }
+  @else if $bp == XSM {
+    @media (max-width: map-get($breakpoints, XSM)) { @content; }
+  }
+  @else if $bp == XS {
+    @media (max-width: map-get($breakpoints, XS)) { @content; }
+  }
+}
