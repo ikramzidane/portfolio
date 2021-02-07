@@ -259,6 +259,35 @@ export default [
 },
 
 { 
+	id: 'gigfairy',
+	title: `GigFairy`,
+	role: 'UI/UX & Front end developer',
+	description: `
+		HTML5 <span></span> 
+		SCSS <span></span> 
+		Bootstrap <span></span> 
+		jQuery <span></span> 
+		Gulp
+	`,
+	count: 5,
+},
+
+{ 
+	id: 'untamed',
+	title: `Untamed Asia`,
+	role: 'Front end developer',
+	description: `
+		HTML5 <span></span> 
+		SCSS <span></span> 
+		Bootstrap <span></span> 
+		jQuery <span></span> 
+		Gulp <span></span> 
+		Wordpress
+	`,
+	count: 5,
+},
+
+{ 
 	id: 'skyvue',
 	title: `Skyvue / NBLand`,
 	role: 'Front end developer',
@@ -277,11 +306,19 @@ export default [
 	count: 2,
 },
 
+
 { 
 	id: 'older-project',
 	title: `Older Projects...`,
-	role: 'Front end developer',
-	description: 'sflkdsmfklsklfdskl',
+	role: 'UI/UX & Front end developer',
+	description: `
+		Collection of my older projects <br />
+		HTML5 <span></span> 
+		SCSS <span></span> 
+		Bootstrap <span></span> 
+		jQuery
+	`,
+	count: 4,
 },
 
 
